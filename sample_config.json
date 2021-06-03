@@ -1,0 +1,7 @@
+{
+    "feed_url": "https://example.com/feed.rss",
+    "db_path": "tg-feed-bot.db",
+    "telegram_token": "9876543210:ABCDEFGHIJKLMNOPQRSTU-XYZ0123456789",
+    "chat_id": -12345678,
+    "message_prefix": "New Post in the blog:"
+}
