@@ -36,7 +36,7 @@ class FeedBot:
 
     def run(self):
         d = feedparser.parse(self.config.feed_url)
-        for entry in d.entries:
+        for entry in d.entries[::-1]:
             self.notify(entry)
 
     def notify(self, entry):
